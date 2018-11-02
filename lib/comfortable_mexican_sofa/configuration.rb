@@ -82,10 +82,10 @@ class ComfortableMexicanSofa::Configuration
   def initialize
     @cms_title            = 'ComfortableMexicanSofa CMS Engine'
     @base_controller      = 'ApplicationController'
-    # @admin_auth           = 'ComfortableMexicanSofa::AccessControl::AdminAuthentication'
-    # @admin_authorization  = 'ComfortableMexicanSofa::AccessControl::AdminAuthorization'
-    # @public_auth          = 'ComfortableMexicanSofa::AccessControl::PublicAuthentication'
-    # @public_authorization = 'ComfortableMexicanSofa::AccessControl::PublicAuthorization'
+    @admin_auth           = 'ComfortableMexicanSofa::AccessControl::AdminAuthentication'
+    @admin_authorization  = 'ComfortableMexicanSofa::AccessControl::AdminAuthorization'
+    @public_auth          = 'ComfortableMexicanSofa::AccessControl::PublicAuthentication'
+    @public_authorization = 'ComfortableMexicanSofa::AccessControl::PublicAuthorization'
     @seed_data_path       = nil
     @admin_route_redirect = ''
     @enable_sitemap       = true

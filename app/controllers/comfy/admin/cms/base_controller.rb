@@ -10,8 +10,7 @@ class Comfy::Admin::Cms::BaseController < ComfortableMexicanSofa.config.base_con
 
   protect_from_forgery
 
-  before_action :authenticate,
-                :load_admin_site,
+  before_action :load_admin_site,
                 :set_locale,
                 :load_fixtures,
                 :except => :jump

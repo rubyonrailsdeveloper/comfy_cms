@@ -8,7 +8,6 @@ class Comfy::Cms::ContentController < Comfy::Cms::BaseController
 
   before_action :load_fixtures
   before_action :load_cms_page,
-                :authenticate,
                 :authorize,
                 :only => :show
 
