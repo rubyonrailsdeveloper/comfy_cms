@@ -5,7 +5,7 @@ require 'comfortable_mexican_sofa/version'
 
 Gem::Specification.new do |s|
   s.name          = "comfortable_mexican_sofa"
-  s.version       = ComfortableMexicanSofa::VERSION
+  s.version       = RECOGNIZE
   s.authors       = ["Oleg Khabarov"]
   s.email         = ["oleg@khabarov.ca"]
   s.homepage      = "http://github.com/comfy/comfortable-mexican-sofa"

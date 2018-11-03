@@ -80,7 +80,7 @@ class ComfortableMexicanSofa::Configuration
 
   # Configuration defaults
   def initialize
-    @cms_title            = 'ComfortableMexicanSofa CMS Engine'
+    @cms_title            = 'Rcognition Stream'
     @base_controller      = 'ApplicationController'
     @admin_auth           = 'ComfortableMexicanSofa::AccessControl::AdminAuthentication'
     @admin_authorization  = 'ComfortableMexicanSofa::AccessControl::AdminAuthorization'

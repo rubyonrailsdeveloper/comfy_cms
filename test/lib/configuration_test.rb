@@ -6,7 +6,7 @@ class ConfigurationTest < ActiveSupport::TestCase
 
   def test_configuration_presence
     assert config = ComfortableMexicanSofa.configuration
-    assert_equal 'ComfortableMexicanSofa CMS Engine', config.cms_title
+    assert_equal 'Rcognition Stream', config.cms_title
     assert_equal 'ApplicationController', config.base_controller
     assert_equal 'ComfortableMexicanSofa::AccessControl::AdminAuthentication',  config.admin_auth
     assert_equal 'ComfortableMexicanSofa::AccessControl::AdminAuthorization',   config.admin_authorization
