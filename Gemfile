@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 
 gemspec
-
+#gemspec
 # apps can also use will_paginate so there's no dependency in gemspec
 gem 'kaminari'
 
